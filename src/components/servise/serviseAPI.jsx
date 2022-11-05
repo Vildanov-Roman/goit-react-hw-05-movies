@@ -6,7 +6,7 @@ const nameMovie = 'search/movie';
 const movieApi = axios.create({ baseURL: 'https://api.themoviedb.org/3/' });
 export const moviesFetch = async () => {
   const response = await movieApi.get(trandingMovie, {
-    params: { api_key: 'f9515d5c748130764d8b19c2d2137bc3' },
+    params: { api_key: 'fe8296f47fdee638ac9cbbf0db61e69d' },
   });
   return response.data.results;
 };
